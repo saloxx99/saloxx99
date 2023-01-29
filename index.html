@@ -143,11 +143,11 @@
         var location = content.results[0].location;
         var dob = content.results[0].dob;
         var phone = content.results[0].phone;
-        document.getElementById("fullname").innerHTML = nameContent.title + "." + " " + nameContent.first + " " + nameContent.last;
+        document.getElementById("fullname").innerHTML = nameContent.title + ". " + nameContent.first + " " + nameContent.last;
         document.getElementById("profilephoto").src = pictureContent.large;
         document.getElementById("email").innerHTML = email;
-        document.getElementById("age").innerHTML = dob.age;
-        document.getElementById("location").innerHTML = location.city + "," + " " + location.country;
+        document.getElementById("age").innerHTML = dob.age + " años";
+        document.getElementById("location").innerHTML = location.city + ", " + location.country;
         document.getElementById("direccion").innerHTML = location.street.name + " " + location.street.number;
         document.getElementById("dob").innerHTML = dob.date;
         document.getElementById("number").innerHTML = phone;
