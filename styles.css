@@ -1,6 +1,5 @@
 body, main, footer {
-    font-family: 'Lexend', sans-serif;
-    font-weight: 200;
+    font-family: 'Lexend', sans-serif !important;
 }
 #profilephoto {
     width: 65%;
@@ -17,4 +16,7 @@ body, main, footer {
 #fullname {
     font-family: 'Lexend', sans-serif; 
     font-weight: 500;
+}
+.navbar-nav {
+    font-family: 'Lexend', sans-serif !important;
 }
